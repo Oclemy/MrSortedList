@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:transitionName="questionTransition"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/layoutQuestion_item"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="NAME"
+        android:textSize="17dp"
+        android:maxLines="3"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This star is one of the largest stars ever discovered in the observable universe. Amazing stuff. "
+        android:layout_marginTop="1dp"
+        android:textColor="#77FFFFFF"
+        android:textSize="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/commentsTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="82"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_chat_black_24dp"
+            android:drawablePadding="2dp"
+            android:drawableTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textSize="9dp"
+            />
+
+        <TextView
+            android:id="@+id/favoritesTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2K"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_favorite_black_24dp"
+            android:drawablePadding="2dp"
+            android:drawableTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textSize="9dp"
+            android:layout_marginLeft="2dp"
+            />
+
+
+        <TextView
+            android:id="@+id/viewsTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10K"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_visibility_black_24dp"
+            android:drawablePadding="2dp"
+            android:drawableTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textSize="9dp"
+            android:layout_marginLeft="2dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
